@@ -1,0 +1,1907 @@
+2025-08-21 17:32:44,113 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-21 17:32:44,116 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-21 17:32:44,116 - camera_model_cam1 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-21 17:32:44,117 - camera_model_cam1 - WARNING - No counting zones found for camera cam1
+2025-08-21 17:32:44,118 - camera_model_cam1 - INFO - Loaded 0 counting zones
+2025-08-21 17:32:44,119 - camera_model_cam1 - INFO - Individual camera events enabled
+2025-08-21 17:32:44,122 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-21 17:32:44,134 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-21 17:32:44,135 - camera_model_cam1 - INFO - Initializing PPEDetector - GUARANTEED EVENT VERSION
+2025-08-21 17:32:44,135 - camera_model_cam1 - INFO - Using shared YOLO model for PPE detection
+2025-08-21 17:32:44,136 - camera_model_cam1 - INFO - PPEDetector initialized - will trigger violations when people detected
+2025-08-21 17:32:44,137 - camera_model_cam1 - INFO - PPE events enabled
+2025-08-21 17:32:44,140 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-21 17:32:44,143 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-21 17:32:44,144 - camera_model_cam1 - INFO - Initializing TailgatingZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-21 17:32:44,144 - camera_model_cam1 - WARNING - No entry zones found in database
+2025-08-21 17:32:44,145 - camera_model_cam1 - WARNING - No entry zones defined, using default zone
+2025-08-21 17:32:44,146 - camera_model_cam1 - INFO - TailgatingZoneMonitor initialized with 1 zones
+2025-08-21 17:32:44,149 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-21 17:32:44,152 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-21 17:32:44,153 - camera_model_cam1 - INFO - Initializing IntrusionZoneMonitor - BUG FIX VERSION
+2025-08-21 17:32:44,154 - camera_model_cam1 - INFO - Found 1 intrusion zones
+2025-08-21 17:32:44,155 - camera_model_cam1 - INFO - IntrusionZoneMonitor initialized with 1 zones
+2025-08-21 17:32:44,157 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-21 17:32:44,159 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-21 17:32:44,160 - camera_model_cam1 - INFO - Initializing LoiteringZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-21 17:32:44,160 - camera_model_cam1 - INFO - Found 1 loitering zones
+2025-08-21 17:32:44,161 - camera_model_cam1 - INFO - LoiteringZoneMonitor initialized - threshold: 2s or 5 frames
+2025-08-21 17:32:49,971 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:49,989 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:49,990 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:49,990 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:49,990 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,012 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,025 - camera_model_cam1 - WARNING - TAILGATING ALERT: 1 unauthorized entries!
+2025-08-21 17:32:50,026 - camera_model_cam1 - WARNING - TAILGATING EVENT: 1 security violations!
+2025-08-21 17:32:50,026 - camera_model_cam1 - WARNING -   VIOLATION: person_2 followed too closely (gap: 0.7s)
+2025-08-21 17:32:50,030 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:50,049 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:50,050 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:50,050 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:50,050 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:50,057 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:50,122 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:50,142 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:50,142 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:50,143 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:50,143 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,163 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,180 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:50,200 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:50,201 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:50,201 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:50,201 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:50,207 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:50,270 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:50,292 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:50,292 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:50,293 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:50,293 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,311 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,330 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:50,350 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:50,351 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:50,351 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:50,351 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:50,356 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:50,417 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:50,437 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:50,438 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:50,438 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:50,439 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,457 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,493 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:50,514 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:50,515 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:50,515 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:50,515 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:50,520 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:50,583 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:50,603 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:50,603 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:50,604 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:50,604 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,622 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,642 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:50,663 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:50,663 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:50,664 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:50,664 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:50,668 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:50,669 - camera_model_cam1 - WARNING - LOITERING ALERT: person_1 loitering for 0.6s (5 frames)!
+2025-08-21 17:32:50,679 - camera_model_cam1 - WARNING - LOITERING ALERT: person_2 loitering for 0.6s (5 frames)!
+2025-08-21 17:32:50,691 - camera_model_cam1 - WARNING - LOITERING ALERT: 2 violations!
+2025-08-21 17:32:50,691 - camera_model_cam1 - WARNING - LOITERING EVENT: 2 violations detected!
+2025-08-21 17:32:50,692 - camera_model_cam1 - WARNING -   VIOLATION: person_1 exceeded frames threshold (0.6s)
+2025-08-21 17:32:50,692 - camera_model_cam1 - WARNING -   VIOLATION: person_2 exceeded frames threshold (0.6s)
+2025-08-21 17:32:50,753 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:50,776 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:50,778 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:50,778 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:50,778 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,795 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,815 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:50,835 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:50,836 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:50,836 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:50,836 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:50,841 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:50,926 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:50,946 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:50,946 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:50,947 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:50,947 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:50,966 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:50,985 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,005 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,006 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:51,006 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:51,006 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:51,010 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:51,082 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:51,103 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:51,104 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:51,105 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:51,105 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:51,124 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:51,146 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,168 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,169 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:51,169 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:51,169 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:51,173 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:51,248 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:51,268 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:51,268 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:51,269 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:51,269 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:51,289 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:51,309 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,330 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,330 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:51,331 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:51,331 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:51,335 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:51,410 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:51,429 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:51,430 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:51,431 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:51,431 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:51,449 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:51,469 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,491 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,491 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:51,491 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:51,491 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:51,496 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:51,577 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:51,598 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:51,599 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:51,600 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:51,600 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:51,620 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:51,654 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,675 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,675 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:51,676 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:51,676 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:51,682 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:51,759 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:51,780 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:51,780 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:51,780 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:51,781 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:51,798 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:51,816 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,836 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,837 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:51,837 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:51,837 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:51,842 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:51,917 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:51,937 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:51,938 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:51,938 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:51,939 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:51,957 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:51,979 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:51,999 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:51,999 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,000 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,000 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,004 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:52,079 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:52,099 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:52,099 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:52,100 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:52,101 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:52,120 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:52,141 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:52,163 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:52,163 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,164 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,164 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,168 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:52,240 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:52,262 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:52,262 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:52,263 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:52,263 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:52,282 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:52,300 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:52,323 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:52,323 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,323 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,324 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,328 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:52,407 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:52,427 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:52,428 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:52,428 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:52,429 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:52,447 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:52,465 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:52,485 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:52,486 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,486 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,486 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,490 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:52,568 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:52,589 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:52,590 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:52,590 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:52,591 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:52,608 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:52,626 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:52,645 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:52,645 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,645 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,646 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,650 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:52,728 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:52,750 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:52,751 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:52,751 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:52,752 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:52,772 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:52,790 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:52,813 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:52,814 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,814 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,814 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,819 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:52,895 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:52,916 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:52,916 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:52,916 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:52,917 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:52,938 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:52,961 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:52,982 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:52,983 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:52,984 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:52,984 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:52,988 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:53,062 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:53,082 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:53,083 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:53,083 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:53,083 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:53,101 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:53,118 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:53,139 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:53,139 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:53,139 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:53,140 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:53,144 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:53,219 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:53,240 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:53,240 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:53,241 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:53,241 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:53,260 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:53,292 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:53,313 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:53,313 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:53,314 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:53,314 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:53,319 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:53,400 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:53,418 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:53,419 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:53,419 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:53,421 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:53,440 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:53,457 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:53,478 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:53,478 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:53,478 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:53,478 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:53,483 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:53,558 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:53,578 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:53,578 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:53,579 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:53,579 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:53,599 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:53,629 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:53,649 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:53,650 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:53,650 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:53,651 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:53,657 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:53,726 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:53,749 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:53,749 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:53,749 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:53,750 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:53,769 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:53,801 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:53,822 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:53,822 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:53,823 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:53,823 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:53,829 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:53,908 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:53,929 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:53,929 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:53,930 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:53,930 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:53,948 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:53,967 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:53,987 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:53,988 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:53,988 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:53,988 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:53,993 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:54,068 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:54,089 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:54,090 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:54,090 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:54,090 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:54,110 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:54,132 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:54,154 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:54,155 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:54,155 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:54,155 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:54,159 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:54,244 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:54,266 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:54,266 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:54,267 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:54,267 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:54,286 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:54,316 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:54,339 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:54,339 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:54,340 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:54,340 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:54,344 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:54,430 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:54,455 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:54,456 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:54,456 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:54,457 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:54,476 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:54,500 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:54,521 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:54,521 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:54,522 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:54,522 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:54,526 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:54,603 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:54,623 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:54,624 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:54,625 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:54,625 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:54,643 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:54,676 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:54,696 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:54,696 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:54,697 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:54,697 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:54,701 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:54,774 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:54,795 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:54,796 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:54,796 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:54,796 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:54,816 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:54,853 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:54,874 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:54,875 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:54,875 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:54,875 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:54,879 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:54,958 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:54,979 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:54,980 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:54,980 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:54,981 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:54,999 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:55,027 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:55,046 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:55,047 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:55,047 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:55,047 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:55,052 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:55,133 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:55,154 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:55,154 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:55,154 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:55,155 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:55,173 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:55,190 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:55,209 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:55,210 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:55,210 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:55,210 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:55,215 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:55,301 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:55,324 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:55,325 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:55,325 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:55,326 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:55,346 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:55,362 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:55,381 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:55,381 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:55,382 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:55,382 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:55,389 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:55,470 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:55,492 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:55,492 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:55,493 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:55,493 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:55,514 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:55,533 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:55,552 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:55,553 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:55,553 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:55,554 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:55,557 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:55,636 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:55,655 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:55,656 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:55,656 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:55,657 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:55,676 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:55,697 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:55,715 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:55,716 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:55,716 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:55,716 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:55,721 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:55,800 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:55,820 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:55,820 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:55,821 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:55,821 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:55,843 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:55,864 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:55,884 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:55,885 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:55,885 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:55,886 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:55,889 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:55,985 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:56,004 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:56,006 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:56,007 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:56,007 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:56,027 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:56,045 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:56,065 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:56,066 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:56,066 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:56,067 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:56,071 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:56,173 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:56,195 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:56,195 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:56,195 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:56,196 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:56,216 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:56,237 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:56,257 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:56,257 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:56,257 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:56,257 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:56,262 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:56,370 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:56,389 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:56,389 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:56,390 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:56,390 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:56,410 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:56,430 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:56,449 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:56,450 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:56,450 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:56,450 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:56,455 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:56,689 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:56,710 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:56,710 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:56,711 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:56,711 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:56,733 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:56,754 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:56,773 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:56,774 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:56,774 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:56,774 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:56,779 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:56,886 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:56,909 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:56,909 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:56,909 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:56,910 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:56,932 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:56,952 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:56,971 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:56,972 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:56,973 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:56,973 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:56,977 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:57,082 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:57,103 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:57,103 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:57,104 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:57,104 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:57,123 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:57,146 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:57,174 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:57,175 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:57,175 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:57,175 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:57,180 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:57,288 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:57,308 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:57,308 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:57,309 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:57,309 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:57,329 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:57,348 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:57,369 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:57,370 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:57,370 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:57,371 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:57,375 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:57,488 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:57,510 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:57,511 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:57,511 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:57,511 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:57,532 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:57,552 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:57,573 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:57,573 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:57,573 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:57,574 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:57,579 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:57,682 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:57,702 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:57,702 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:57,703 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:57,703 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:57,723 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:57,742 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:57,762 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:57,762 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:57,762 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:57,763 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:57,767 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:57,881 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:57,904 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:57,905 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:57,905 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:57,905 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:57,936 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:57,956 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:57,977 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:57,978 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:57,979 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:57,979 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:57,985 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:58,102 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:58,123 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:58,123 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:58,124 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:58,124 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:58,145 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:58,164 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:58,184 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:58,184 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:58,184 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:58,185 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:58,191 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:58,273 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:58,291 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:58,291 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:58,292 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:58,292 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:58,310 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:58,327 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:58,349 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:58,349 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:58,350 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:58,350 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:58,354 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:58,442 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:58,465 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:58,466 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:58,466 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:58,466 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:58,487 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:58,505 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:58,525 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:58,526 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:58,526 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:58,526 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:58,531 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:58,643 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:58,663 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:58,664 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:58,664 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:58,665 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:58,684 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:58,703 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:58,724 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:58,725 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:58,725 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:58,725 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:58,729 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:58,851 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:58,872 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:58,873 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:58,873 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:58,873 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:58,893 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:58,911 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:58,931 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:58,932 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:58,932 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:58,932 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:58,937 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:59,061 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:59,081 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:59,081 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:59,082 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:59,082 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:59,103 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:59,122 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:59,141 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:59,142 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:59,142 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:59,142 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:59,146 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:59,279 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:59,302 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:59,302 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:59,303 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:59,303 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:59,324 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:59,345 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:59,364 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:59,364 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:59,365 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:59,365 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:59,370 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:59,495 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:59,521 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:59,521 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:59,524 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:59,524 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:59,544 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:59,564 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:59,583 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:59,583 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:59,584 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:59,584 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:59,589 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:32:59,707 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:32:59,728 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:32:59,728 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:32:59,728 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:32:59,729 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:32:59,749 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:32:59,768 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:32:59,788 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:32:59,789 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:32:59,789 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:32:59,790 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:32:59,794 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:33:00,604 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:33:00,624 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:33:00,624 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:33:00,625 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:33:00,625 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:33:00,645 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:33:00,664 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:00,688 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:33:00,688 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:33:00,688 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:00,689 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:33:00,720 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:33:00,786 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:33:00,805 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:33:00,805 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:33:00,806 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:33:00,806 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:33:00,826 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:33:00,845 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:00,864 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:33:00,865 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:33:00,865 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:00,865 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:33:00,869 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:33:00,941 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-21 17:33:00,962 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-21 17:33:00,962 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-21 17:33:00,963 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-21 17:33:00,963 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-21 17:33:00,982 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-21 17:33:01,002 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:01,023 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-21 17:33:01,024 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-21 17:33:01,025 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:01,025 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-21 17:33:01,029 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-21 17:33:02,074 - camera_model_cam1 - INFO - PPE: 1 people detected - creating PPE violations!
+2025-08-21 17:33:02,085 - camera_model_cam1 - INFO - Triggering PPE events: 2 violations across 1 people
+2025-08-21 17:33:02,085 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 2 violations detected!
+2025-08-21 17:33:02,086 - camera_model_cam1 - INFO -   NO-Hardhat: 1 violations
+2025-08-21 17:33:02,086 - camera_model_cam1 - INFO -   NO-Safety Vest: 1 violations
+2025-08-21 17:33:02,114 - camera_model_cam1 - INFO - INTRUSION: 1 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:02,125 - camera_model_cam1 - WARNING - CRITICAL: 1 INTRUSION ALERTS triggered!
+2025-08-21 17:33:02,125 - camera_model_cam1 - WARNING - INTRUSION EVENT: 1 critical alerts!
+2025-08-21 17:33:02,125 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:02,129 - camera_model_cam1 - INFO - LOITERING: 1 people detected - checking for loitering!
+2025-08-21 17:33:02,201 - camera_model_cam1 - INFO - PPE: 1 people detected - creating PPE violations!
+2025-08-21 17:33:02,212 - camera_model_cam1 - INFO - Triggering PPE events: 2 violations across 1 people
+2025-08-21 17:33:02,213 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 2 violations detected!
+2025-08-21 17:33:02,214 - camera_model_cam1 - INFO -   NO-Hardhat: 1 violations
+2025-08-21 17:33:02,214 - camera_model_cam1 - INFO -   NO-Safety Vest: 1 violations
+2025-08-21 17:33:02,236 - camera_model_cam1 - INFO - INTRUSION: 1 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:02,246 - camera_model_cam1 - WARNING - CRITICAL: 1 INTRUSION ALERTS triggered!
+2025-08-21 17:33:02,246 - camera_model_cam1 - WARNING - INTRUSION EVENT: 1 critical alerts!
+2025-08-21 17:33:02,246 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:02,250 - camera_model_cam1 - INFO - LOITERING: 1 people detected - checking for loitering!
+2025-08-21 17:33:02,312 - camera_model_cam1 - INFO - PPE: 1 people detected - creating PPE violations!
+2025-08-21 17:33:02,322 - camera_model_cam1 - INFO - Triggering PPE events: 2 violations across 1 people
+2025-08-21 17:33:02,323 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 2 violations detected!
+2025-08-21 17:33:02,323 - camera_model_cam1 - INFO -   NO-Hardhat: 1 violations
+2025-08-21 17:33:02,324 - camera_model_cam1 - INFO -   NO-Safety Vest: 1 violations
+2025-08-21 17:33:02,346 - camera_model_cam1 - INFO - INTRUSION: 1 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:02,357 - camera_model_cam1 - WARNING - CRITICAL: 1 INTRUSION ALERTS triggered!
+2025-08-21 17:33:02,358 - camera_model_cam1 - WARNING - INTRUSION EVENT: 1 critical alerts!
+2025-08-21 17:33:02,358 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:02,362 - camera_model_cam1 - INFO - LOITERING: 1 people detected - checking for loitering!
+2025-08-21 17:33:02,594 - camera_model_cam1 - INFO - PPE: 1 people detected - creating PPE violations!
+2025-08-21 17:33:02,604 - camera_model_cam1 - INFO - Triggering PPE events: 2 violations across 1 people
+2025-08-21 17:33:02,605 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 2 violations detected!
+2025-08-21 17:33:02,605 - camera_model_cam1 - INFO -   NO-Hardhat: 1 violations
+2025-08-21 17:33:02,605 - camera_model_cam1 - INFO -   NO-Safety Vest: 1 violations
+2025-08-21 17:33:02,632 - camera_model_cam1 - INFO - INTRUSION: 1 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:02,641 - camera_model_cam1 - WARNING - CRITICAL: 1 INTRUSION ALERTS triggered!
+2025-08-21 17:33:02,642 - camera_model_cam1 - WARNING - INTRUSION EVENT: 1 critical alerts!
+2025-08-21 17:33:02,642 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:02,645 - camera_model_cam1 - INFO - LOITERING: 1 people detected - checking for loitering!
+2025-08-21 17:33:02,707 - camera_model_cam1 - INFO - PPE: 1 people detected - creating PPE violations!
+2025-08-21 17:33:02,717 - camera_model_cam1 - INFO - Triggering PPE events: 2 violations across 1 people
+2025-08-21 17:33:02,718 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 2 violations detected!
+2025-08-21 17:33:02,718 - camera_model_cam1 - INFO -   NO-Hardhat: 1 violations
+2025-08-21 17:33:02,718 - camera_model_cam1 - INFO -   NO-Safety Vest: 1 violations
+2025-08-21 17:33:02,746 - camera_model_cam1 - INFO - INTRUSION: 1 people detected - ALL ARE INTRUDERS!
+2025-08-21 17:33:02,756 - camera_model_cam1 - WARNING - CRITICAL: 1 INTRUSION ALERTS triggered!
+2025-08-21 17:33:02,756 - camera_model_cam1 - WARNING - INTRUSION EVENT: 1 critical alerts!
+2025-08-21 17:33:02,756 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-21 17:33:02,761 - camera_model_cam1 - INFO - LOITERING: 1 people detected - checking for loitering!
+2025-08-28 12:14:22,585 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:14:22,586 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:14:22,587 - camera_model_cam1 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-28 12:14:22,588 - camera_model_cam1 - WARNING - No counting zones found for camera cam1
+2025-08-28 12:14:22,589 - camera_model_cam1 - INFO - Loaded 0 counting zones
+2025-08-28 12:14:22,590 - camera_model_cam1 - INFO - Individual camera events enabled
+2025-08-28 12:14:22,592 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:14:22,594 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:14:22,594 - camera_model_cam1 - INFO - Initializing PPEDetector - GUARANTEED EVENT VERSION
+2025-08-28 12:14:22,595 - camera_model_cam1 - INFO - Using shared YOLO model for PPE detection
+2025-08-28 12:14:22,596 - camera_model_cam1 - INFO - PPEDetector initialized - will trigger violations when people detected
+2025-08-28 12:14:22,596 - camera_model_cam1 - INFO - PPE events enabled
+2025-08-28 12:14:22,599 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:14:22,600 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:14:22,601 - camera_model_cam1 - INFO - Initializing TailgatingZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 12:14:22,602 - camera_model_cam1 - WARNING - No entry zones found in database
+2025-08-28 12:14:22,603 - camera_model_cam1 - WARNING - No entry zones defined, using default zone
+2025-08-28 12:14:22,604 - camera_model_cam1 - INFO - TailgatingZoneMonitor initialized with 1 zones
+2025-08-28 12:14:22,608 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:14:22,609 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:14:22,610 - camera_model_cam1 - INFO - Initializing IntrusionZoneMonitor - BUG FIX VERSION
+2025-08-28 12:14:22,611 - camera_model_cam1 - INFO - Found 1 intrusion zones
+2025-08-28 12:14:22,612 - camera_model_cam1 - INFO - IntrusionZoneMonitor initialized with 1 zones
+2025-08-28 12:14:22,615 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:14:22,617 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:14:22,617 - camera_model_cam1 - INFO - Initializing LoiteringZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 12:14:22,618 - camera_model_cam1 - INFO - Found 1 loitering zones
+2025-08-28 12:14:22,619 - camera_model_cam1 - INFO - LoiteringZoneMonitor initialized - threshold: 2s or 5 frames
+2025-08-28 12:17:58,766 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:17:58,767 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:17:58,768 - camera_model_cam1 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-28 12:17:58,769 - camera_model_cam1 - WARNING - No counting zones found for camera cam1
+2025-08-28 12:17:58,770 - camera_model_cam1 - INFO - Loaded 0 counting zones
+2025-08-28 12:17:58,771 - camera_model_cam1 - INFO - Individual camera events enabled
+2025-08-28 12:17:58,773 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:17:58,775 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:17:58,775 - camera_model_cam1 - INFO - Initializing PPEDetector - GUARANTEED EVENT VERSION
+2025-08-28 12:17:58,776 - camera_model_cam1 - INFO - Using shared YOLO model for PPE detection
+2025-08-28 12:17:58,777 - camera_model_cam1 - INFO - PPEDetector initialized - will trigger violations when people detected
+2025-08-28 12:17:58,778 - camera_model_cam1 - INFO - PPE events enabled
+2025-08-28 12:17:58,780 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:17:58,781 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:17:58,782 - camera_model_cam1 - INFO - Initializing TailgatingZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 12:17:58,783 - camera_model_cam1 - WARNING - No entry zones found in database
+2025-08-28 12:17:58,784 - camera_model_cam1 - WARNING - No entry zones defined, using default zone
+2025-08-28 12:17:58,785 - camera_model_cam1 - INFO - TailgatingZoneMonitor initialized with 1 zones
+2025-08-28 12:17:58,787 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:17:58,789 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:17:58,790 - camera_model_cam1 - INFO - Initializing IntrusionZoneMonitor - BUG FIX VERSION
+2025-08-28 12:17:58,791 - camera_model_cam1 - INFO - Found 1 intrusion zones
+2025-08-28 12:17:58,791 - camera_model_cam1 - INFO - IntrusionZoneMonitor initialized with 1 zones
+2025-08-28 12:17:58,794 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:17:58,796 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:17:58,797 - camera_model_cam1 - INFO - Initializing LoiteringZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 12:17:58,798 - camera_model_cam1 - INFO - Found 1 loitering zones
+2025-08-28 12:17:58,799 - camera_model_cam1 - INFO - LoiteringZoneMonitor initialized - threshold: 2s or 5 frames
+2025-08-28 12:18:22,000 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:22,029 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:22,029 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:22,030 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:22,030 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:22,049 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:22,074 - camera_model_cam1 - WARNING - TAILGATING ALERT: 2 unauthorized entries!
+2025-08-28 12:18:22,075 - camera_model_cam1 - WARNING - TAILGATING EVENT: 2 security violations!
+2025-08-28 12:18:22,075 - camera_model_cam1 - WARNING -   VIOLATION: person_2 followed too closely (gap: 0.7s)
+2025-08-28 12:18:22,075 - camera_model_cam1 - WARNING -   VIOLATION: person_3 followed too closely (gap: 0.9s)
+2025-08-28 12:18:22,081 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:22,110 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:22,111 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:22,111 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:22,112 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:22,112 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:22,118 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:22,177 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:22,210 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:22,211 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:22,211 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:22,212 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:22,231 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:22,256 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:22,288 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:22,288 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:22,288 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:22,289 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:22,289 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:22,293 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:22,366 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:22,393 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:22,393 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:22,394 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:22,394 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:22,418 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:22,446 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:22,476 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:22,476 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:22,476 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:22,477 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:22,477 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:22,482 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:22,559 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:22,588 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:22,589 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:22,589 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:22,589 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:22,612 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:22,640 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:22,671 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:22,672 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:22,673 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:22,673 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:22,673 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:22,677 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:22,766 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:22,803 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:22,803 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:22,803 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:22,804 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:22,822 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:22,852 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:22,882 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:22,883 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:22,883 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:22,884 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:22,884 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:22,888 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:22,889 - camera_model_cam1 - WARNING - LOITERING ALERT: person_1 loitering for 0.8s (5 frames)!
+2025-08-28 12:18:22,899 - camera_model_cam1 - WARNING - LOITERING ALERT: person_2 loitering for 0.8s (5 frames)!
+2025-08-28 12:18:22,908 - camera_model_cam1 - WARNING - LOITERING ALERT: person_3 loitering for 0.8s (5 frames)!
+2025-08-28 12:18:22,920 - camera_model_cam1 - WARNING - LOITERING ALERT: 3 violations!
+2025-08-28 12:18:22,920 - camera_model_cam1 - WARNING - LOITERING EVENT: 3 violations detected!
+2025-08-28 12:18:22,920 - camera_model_cam1 - WARNING -   VIOLATION: person_1 exceeded frames threshold (0.8s)
+2025-08-28 12:18:22,921 - camera_model_cam1 - WARNING -   VIOLATION: person_2 exceeded frames threshold (0.8s)
+2025-08-28 12:18:22,921 - camera_model_cam1 - WARNING -   VIOLATION: person_3 exceeded frames threshold (0.8s)
+2025-08-28 12:18:22,977 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:23,016 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:23,017 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:23,017 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:23,018 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:23,039 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:23,075 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:23,106 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:23,106 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:23,106 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:23,107 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:23,107 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:23,111 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:23,208 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:23,241 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:23,241 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:23,241 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:23,242 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:23,263 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:23,296 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:23,326 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:23,326 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:23,327 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:23,327 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:23,327 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:23,332 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:23,421 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:23,451 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:23,451 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:23,452 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:23,452 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:23,471 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:23,500 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:23,529 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:23,530 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:23,530 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:23,531 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:23,531 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:23,537 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:23,656 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:23,687 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:23,687 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:23,687 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:23,688 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:23,707 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:23,736 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:23,767 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:23,767 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:23,768 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:23,768 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:23,768 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:23,773 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:23,885 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:23,914 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:23,915 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:23,915 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:23,916 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:23,937 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:23,966 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:23,995 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:23,997 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:23,997 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:23,998 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:23,998 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:24,002 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:24,118 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:24,147 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:24,148 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:24,148 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:24,148 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:24,169 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:24,200 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:24,228 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:24,229 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:24,229 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:24,229 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:24,230 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:24,236 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:24,330 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:24,359 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:24,360 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:24,360 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:24,360 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:24,380 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:24,408 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:24,437 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:24,438 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:24,438 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:24,439 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:24,439 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:24,443 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:24,534 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:24,564 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:24,564 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:24,565 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:24,565 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:24,586 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:24,611 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:24,641 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:24,642 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:24,642 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:24,642 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:24,643 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:24,660 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:24,754 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:24,781 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:24,782 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:24,782 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:24,782 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:24,802 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:24,829 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:24,859 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:24,860 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:24,860 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:24,861 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:24,861 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:24,866 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:24,971 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:25,004 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:25,004 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:25,004 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:25,005 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:25,024 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:25,050 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:25,078 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:25,078 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:25,079 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:25,079 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:25,079 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:25,084 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:25,207 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:25,237 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:25,238 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:25,239 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:25,239 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:25,259 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:25,287 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:25,318 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:25,319 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:25,319 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:25,320 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:25,321 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:25,324 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:25,424 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:25,454 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:25,455 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:25,455 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:25,455 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:25,474 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:25,502 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:25,532 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:25,533 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:25,533 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:25,533 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:25,534 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:25,538 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:25,634 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:25,666 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:25,667 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:25,667 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:25,667 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:25,688 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:25,715 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:25,743 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:25,744 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:25,744 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:25,746 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:25,746 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:25,767 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:25,873 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:25,902 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:25,903 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:25,903 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:25,903 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:25,924 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:25,950 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:25,978 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:25,978 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:25,979 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:25,979 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:25,979 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:25,984 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:26,102 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:26,132 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:26,133 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:26,133 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:26,133 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:26,155 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:26,185 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:26,218 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:26,218 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:26,219 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:26,219 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:26,219 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:26,224 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:26,360 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:26,392 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:26,392 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:26,393 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:26,393 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:26,415 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:26,442 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:26,470 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:26,471 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:26,472 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:26,472 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:26,473 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:26,477 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:26,577 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:26,607 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:26,608 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:26,608 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:26,608 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:26,626 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:26,664 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:26,696 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:26,696 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:26,696 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:26,697 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:26,697 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:26,702 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:26,822 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:26,854 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:26,855 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:26,855 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:26,855 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:26,876 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:26,905 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:26,932 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:26,933 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:26,933 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:26,934 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:26,934 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:26,962 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:18:27,076 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:18:27,108 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:18:27,109 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:18:27,109 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:18:27,109 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:18:27,130 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:18:27,159 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:18:27,186 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:18:27,187 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:18:27,187 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:18:27,187 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:18:27,188 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:18:27,192 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:07,718 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:58:07,720 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:58:07,721 - camera_model_cam1 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-28 12:58:07,722 - camera_model_cam1 - WARNING - No counting zones found for camera cam1
+2025-08-28 12:58:07,723 - camera_model_cam1 - INFO - Loaded 0 counting zones
+2025-08-28 12:58:07,723 - camera_model_cam1 - INFO - Individual camera events enabled
+2025-08-28 12:58:07,726 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:58:07,728 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:58:07,729 - camera_model_cam1 - INFO - Initializing PPEDetector - GUARANTEED EVENT VERSION
+2025-08-28 12:58:07,730 - camera_model_cam1 - INFO - Using shared YOLO model for PPE detection
+2025-08-28 12:58:07,731 - camera_model_cam1 - INFO - PPEDetector initialized - will trigger violations when people detected
+2025-08-28 12:58:07,732 - camera_model_cam1 - INFO - PPE events enabled
+2025-08-28 12:58:07,734 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:58:07,736 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:58:07,737 - camera_model_cam1 - INFO - Initializing TailgatingZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 12:58:07,737 - camera_model_cam1 - WARNING - No entry zones found in database
+2025-08-28 12:58:07,738 - camera_model_cam1 - WARNING - No entry zones defined, using default zone
+2025-08-28 12:58:07,739 - camera_model_cam1 - INFO - TailgatingZoneMonitor initialized with 1 zones
+2025-08-28 12:58:07,741 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:58:07,743 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:58:07,744 - camera_model_cam1 - INFO - Initializing IntrusionZoneMonitor - BUG FIX VERSION
+2025-08-28 12:58:07,745 - camera_model_cam1 - INFO - Found 1 intrusion zones
+2025-08-28 12:58:07,745 - camera_model_cam1 - INFO - IntrusionZoneMonitor initialized with 1 zones
+2025-08-28 12:58:07,747 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 12:58:07,748 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 12:58:07,749 - camera_model_cam1 - INFO - Initializing LoiteringZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 12:58:07,750 - camera_model_cam1 - INFO - Found 1 loitering zones
+2025-08-28 12:58:07,750 - camera_model_cam1 - INFO - LoiteringZoneMonitor initialized - threshold: 2s or 5 frames
+2025-08-28 12:58:15,003 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:15,032 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:15,032 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:15,032 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:15,032 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:15,052 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:15,076 - camera_model_cam1 - WARNING - TAILGATING ALERT: 2 unauthorized entries!
+2025-08-28 12:58:15,077 - camera_model_cam1 - WARNING - TAILGATING EVENT: 2 security violations!
+2025-08-28 12:58:15,078 - camera_model_cam1 - WARNING -   VIOLATION: person_2 followed too closely (gap: 0.7s)
+2025-08-28 12:58:15,078 - camera_model_cam1 - WARNING -   VIOLATION: person_3 followed too closely (gap: 0.9s)
+2025-08-28 12:58:15,082 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:15,110 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:15,111 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:15,111 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:15,111 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:15,112 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:15,116 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:15,174 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:15,204 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:15,204 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:15,205 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:15,205 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:15,229 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:15,257 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:15,285 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:15,286 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:15,286 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:15,286 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:15,287 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:15,292 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:15,362 - camera_model_cam1 - INFO - PPE: 2 people detected - creating PPE violations!
+2025-08-28 12:58:15,382 - camera_model_cam1 - INFO - Triggering PPE events: 4 violations across 2 people
+2025-08-28 12:58:15,382 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 4 violations detected!
+2025-08-28 12:58:15,383 - camera_model_cam1 - INFO -   NO-Safety Vest: 2 violations
+2025-08-28 12:58:15,383 - camera_model_cam1 - INFO -   NO-Hardhat: 2 violations
+2025-08-28 12:58:15,418 - camera_model_cam1 - INFO - TAILGATING: 2 people detected - triggering tailgating alerts!
+2025-08-28 12:58:15,437 - camera_model_cam1 - INFO - INTRUSION: 2 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:15,459 - camera_model_cam1 - WARNING - CRITICAL: 2 INTRUSION ALERTS triggered!
+2025-08-28 12:58:15,459 - camera_model_cam1 - WARNING - INTRUSION EVENT: 2 critical alerts!
+2025-08-28 12:58:15,460 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:15,460 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:15,464 - camera_model_cam1 - INFO - LOITERING: 2 people detected - checking for loitering!
+2025-08-28 12:58:15,528 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:15,558 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:15,559 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:15,559 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:15,559 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:15,579 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:15,617 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:15,651 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:15,651 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:15,651 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:15,652 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:15,652 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:15,657 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:15,727 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:15,756 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:15,756 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:15,757 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:15,757 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:15,777 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:15,804 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:15,834 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:15,835 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:15,835 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:15,836 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:15,836 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:15,840 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:15,840 - camera_model_cam1 - WARNING - LOITERING ALERT: person_1 loitering for 0.7s (5 frames)!
+2025-08-28 12:58:15,851 - camera_model_cam1 - WARNING - LOITERING ALERT: person_2 loitering for 0.7s (5 frames)!
+2025-08-28 12:58:15,868 - camera_model_cam1 - WARNING - LOITERING ALERT: 2 violations!
+2025-08-28 12:58:15,869 - camera_model_cam1 - WARNING - LOITERING EVENT: 2 violations detected!
+2025-08-28 12:58:15,869 - camera_model_cam1 - WARNING -   VIOLATION: person_1 exceeded frames threshold (0.7s)
+2025-08-28 12:58:15,869 - camera_model_cam1 - WARNING -   VIOLATION: person_2 exceeded frames threshold (0.7s)
+2025-08-28 12:58:15,922 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:15,962 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:15,962 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:15,963 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:15,963 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:15,982 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:16,019 - camera_model_cam1 - WARNING - TAILGATING ALERT: 1 unauthorized entries!
+2025-08-28 12:58:16,020 - camera_model_cam1 - WARNING - TAILGATING EVENT: 1 security violations!
+2025-08-28 12:58:16,020 - camera_model_cam1 - WARNING -   VIOLATION: person_4 followed too closely (gap: 1.1s)
+2025-08-28 12:58:16,025 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:16,067 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:16,068 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:16,068 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:16,069 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:16,069 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:16,069 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:16,073 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:16,152 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:16,182 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:16,183 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:16,183 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:16,184 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:16,202 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:16,234 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:16,266 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:16,267 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:16,267 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:16,268 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:16,268 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:16,272 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:16,350 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:16,379 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:16,379 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:16,380 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:16,380 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:16,415 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:16,443 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:16,476 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:16,477 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:16,478 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:16,478 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:16,478 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:16,482 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:16,502 - camera_model_cam1 - WARNING - LOITERING ALERT: person_3 loitering for 0.8s (5 frames)!
+2025-08-28 12:58:16,513 - camera_model_cam1 - WARNING - LOITERING ALERT: 1 violations!
+2025-08-28 12:58:16,513 - camera_model_cam1 - WARNING - LOITERING EVENT: 1 violations detected!
+2025-08-28 12:58:16,514 - camera_model_cam1 - WARNING -   VIOLATION: person_3 exceeded frames threshold (0.8s)
+2025-08-28 12:58:16,567 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:16,606 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:16,606 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:16,606 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:16,606 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:16,628 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:16,669 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:16,709 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:16,709 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:16,710 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:16,711 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:16,711 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:16,711 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:16,715 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:16,798 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:16,829 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:16,829 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:16,829 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:16,830 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:16,848 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:16,881 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:16,910 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:16,912 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:16,912 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:16,912 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:16,912 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:16,916 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:17,001 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:17,034 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:17,035 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:17,035 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:17,035 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:17,054 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:17,081 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:17,111 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:17,112 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:17,112 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:17,112 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:17,112 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:17,116 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:17,197 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:17,225 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:17,225 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:17,226 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:17,226 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:17,246 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:17,277 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:17,306 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:17,306 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:17,307 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:17,307 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:17,307 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:17,312 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:17,395 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:17,426 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:17,426 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:17,426 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:17,427 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:17,447 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:17,480 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:17,508 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:17,508 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:17,509 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:17,509 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:17,509 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:17,515 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:17,596 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:17,624 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:17,624 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:17,624 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:17,625 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:17,643 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:17,672 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:17,701 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:17,702 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:17,702 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:17,702 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:17,703 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:17,707 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:17,814 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:17,843 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:17,844 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:17,845 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:17,846 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:17,865 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:17,894 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:17,925 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:17,925 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:17,926 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:17,926 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:17,927 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:17,930 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:18,032 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:18,062 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:18,063 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:18,063 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:18,064 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:18,084 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:18,115 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:18,146 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:18,146 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:18,147 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:18,147 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:18,147 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:18,153 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:18,237 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:18,266 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:18,266 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:18,266 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:18,267 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:18,286 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:18,329 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:18,359 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:18,359 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:18,359 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:18,359 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:18,359 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:18,364 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:18,449 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:18,484 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:18,485 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:18,485 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:18,485 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:18,505 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:18,544 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:18,581 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:18,582 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:18,582 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:18,582 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:18,583 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:18,583 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:18,587 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:18,670 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:18,713 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:18,714 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:18,714 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:18,714 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:18,733 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:18,771 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:18,810 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:18,810 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:18,810 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:18,810 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:18,810 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:18,810 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:18,815 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:18,908 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:18,950 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:18,951 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:18,951 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:18,951 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:18,974 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:19,013 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:19,056 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:19,056 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:19,056 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:19,057 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:19,057 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:19,057 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:19,063 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:19,160 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:19,204 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:19,205 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:19,205 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:19,205 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:19,227 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:19,266 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:19,305 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:19,305 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:19,305 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:19,306 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:19,306 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:19,306 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:19,312 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:19,404 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:19,441 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:19,441 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:19,441 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:19,442 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:19,460 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:19,503 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:19,547 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:19,547 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:19,548 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:19,548 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:19,549 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:19,549 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:19,554 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:19,586 - camera_model_cam1 - WARNING - LOITERING ALERT: person_4 loitering for 1.0s (5 frames)!
+2025-08-28 12:58:19,597 - camera_model_cam1 - WARNING - LOITERING ALERT: 1 violations!
+2025-08-28 12:58:19,597 - camera_model_cam1 - WARNING - LOITERING EVENT: 1 violations detected!
+2025-08-28 12:58:19,597 - camera_model_cam1 - WARNING -   VIOLATION: person_4 exceeded frames threshold (1.0s)
+2025-08-28 12:58:19,659 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 12:58:19,699 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 12:58:19,700 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 12:58:19,700 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 12:58:19,700 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 12:58:19,721 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 12:58:19,761 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:19,799 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 12:58:19,800 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 12:58:19,801 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:19,801 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:19,801 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:19,801 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 12:58:19,813 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 12:58:19,904 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:19,933 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:19,934 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:19,934 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:19,934 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:19,952 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:19,978 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:20,009 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:20,010 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:20,010 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:20,010 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:20,010 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:20,015 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:20,095 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:20,124 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:20,124 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:20,125 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:20,125 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:20,153 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:20,182 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:20,212 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:20,213 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:20,213 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:20,213 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:20,213 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:20,219 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:20,306 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:20,335 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:20,335 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:20,336 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:20,336 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:20,356 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:20,386 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:20,414 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:20,414 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:20,415 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:20,415 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:20,415 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:20,420 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 12:58:20,505 - camera_model_cam1 - INFO - PPE: 3 people detected - creating PPE violations!
+2025-08-28 12:58:20,533 - camera_model_cam1 - INFO - Triggering PPE events: 6 violations across 3 people
+2025-08-28 12:58:20,533 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 6 violations detected!
+2025-08-28 12:58:20,534 - camera_model_cam1 - INFO -   NO-Safety Vest: 3 violations
+2025-08-28 12:58:20,534 - camera_model_cam1 - INFO -   NO-Hardhat: 3 violations
+2025-08-28 12:58:20,554 - camera_model_cam1 - INFO - TAILGATING: 3 people detected - triggering tailgating alerts!
+2025-08-28 12:58:20,581 - camera_model_cam1 - INFO - INTRUSION: 3 people detected - ALL ARE INTRUDERS!
+2025-08-28 12:58:20,609 - camera_model_cam1 - WARNING - CRITICAL: 3 INTRUSION ALERTS triggered!
+2025-08-28 12:58:20,609 - camera_model_cam1 - WARNING - INTRUSION EVENT: 3 critical alerts!
+2025-08-28 12:58:20,609 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 12:58:20,609 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 12:58:20,610 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 12:58:20,613 - camera_model_cam1 - INFO - LOITERING: 3 people detected - checking for loitering!
+2025-08-28 13:57:27,526 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 13:57:27,527 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 13:57:27,528 - camera_model_cam1 - INFO - Initializing PeopleCountingMonitor with detailed logging
+2025-08-28 13:57:27,528 - camera_model_cam1 - WARNING - No counting zones found for camera cam1
+2025-08-28 13:57:27,528 - camera_model_cam1 - INFO - Loaded 0 counting zones
+2025-08-28 13:57:27,529 - camera_model_cam1 - INFO - Individual camera events enabled
+2025-08-28 13:57:27,531 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 13:57:27,532 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 13:57:27,533 - camera_model_cam1 - INFO - Initializing PPEDetector - GUARANTEED EVENT VERSION
+2025-08-28 13:57:27,533 - camera_model_cam1 - INFO - Using shared YOLO model for PPE detection
+2025-08-28 13:57:27,533 - camera_model_cam1 - INFO - PPEDetector initialized - will trigger violations when people detected
+2025-08-28 13:57:27,534 - camera_model_cam1 - INFO - PPE events enabled
+2025-08-28 13:57:27,535 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 13:57:27,536 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 13:57:27,537 - camera_model_cam1 - INFO - Initializing TailgatingZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 13:57:27,537 - camera_model_cam1 - WARNING - No entry zones found in database
+2025-08-28 13:57:27,538 - camera_model_cam1 - WARNING - No entry zones defined, using default zone
+2025-08-28 13:57:27,539 - camera_model_cam1 - INFO - TailgatingZoneMonitor initialized with 1 zones
+2025-08-28 13:57:27,543 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 13:57:27,544 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 13:57:27,544 - camera_model_cam1 - INFO - Initializing IntrusionZoneMonitor - BUG FIX VERSION
+2025-08-28 13:57:27,545 - camera_model_cam1 - INFO - Found 1 intrusion zones
+2025-08-28 13:57:27,545 - camera_model_cam1 - INFO - IntrusionZoneMonitor initialized with 1 zones
+2025-08-28 13:57:27,546 - camera_model_cam1 - INFO - Initializing camera model base for camera cam1
+2025-08-28 13:57:27,546 - camera_model_cam1 - INFO - Camera model base initialized for camera cam1
+2025-08-28 13:57:27,547 - camera_model_cam1 - INFO - Initializing LoiteringZoneMonitor - GUARANTEED EVENT VERSION
+2025-08-28 13:57:27,547 - camera_model_cam1 - INFO - Found 1 loitering zones
+2025-08-28 13:57:27,547 - camera_model_cam1 - INFO - LoiteringZoneMonitor initialized - threshold: 2s or 5 frames
+2025-08-28 13:57:35,408 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:35,465 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:35,466 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:35,466 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:35,467 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:35,491 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:35,540 - camera_model_cam1 - WARNING - TAILGATING ALERT: 4 unauthorized entries!
+2025-08-28 13:57:35,541 - camera_model_cam1 - WARNING - TAILGATING EVENT: 4 security violations!
+2025-08-28 13:57:35,541 - camera_model_cam1 - WARNING -   VIOLATION: person_2 followed too closely (gap: 0.7s)
+2025-08-28 13:57:35,542 - camera_model_cam1 - WARNING -   VIOLATION: person_3 followed too closely (gap: 0.9s)
+2025-08-28 13:57:35,542 - camera_model_cam1 - WARNING -   VIOLATION: person_4 followed too closely (gap: 1.1s)
+2025-08-28 13:57:35,542 - camera_model_cam1 - WARNING -   VIOLATION: person_5 followed too closely (gap: 1.3s)
+2025-08-28 13:57:35,547 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:35,607 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:35,608 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:35,608 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:35,608 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:35,608 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:35,608 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:35,609 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:35,614 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:35,679 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 13:57:35,728 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 13:57:35,729 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 13:57:35,730 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 13:57:35,730 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 13:57:35,752 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 13:57:35,800 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:35,845 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 13:57:35,845 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 13:57:35,846 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:35,846 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:35,846 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:35,846 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:35,852 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 13:57:35,937 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 13:57:35,986 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 13:57:35,986 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 13:57:35,987 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 13:57:35,989 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 13:57:36,012 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 13:57:36,061 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:36,109 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 13:57:36,110 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 13:57:36,110 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:36,110 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:36,110 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:36,111 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:36,116 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 13:57:36,207 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:36,270 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:36,270 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:36,271 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:36,271 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:36,296 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:36,353 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:36,410 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:36,410 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:36,411 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:36,411 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:36,411 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:36,412 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:36,412 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:36,416 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:36,506 - camera_model_cam1 - INFO - PPE: 4 people detected - creating PPE violations!
+2025-08-28 13:57:36,550 - camera_model_cam1 - INFO - Triggering PPE events: 8 violations across 4 people
+2025-08-28 13:57:36,551 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 8 violations detected!
+2025-08-28 13:57:36,551 - camera_model_cam1 - INFO -   NO-Safety Vest: 4 violations
+2025-08-28 13:57:36,551 - camera_model_cam1 - INFO -   NO-Hardhat: 4 violations
+2025-08-28 13:57:36,578 - camera_model_cam1 - INFO - TAILGATING: 4 people detected - triggering tailgating alerts!
+2025-08-28 13:57:36,631 - camera_model_cam1 - INFO - INTRUSION: 4 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:36,680 - camera_model_cam1 - WARNING - CRITICAL: 4 INTRUSION ALERTS triggered!
+2025-08-28 13:57:36,681 - camera_model_cam1 - WARNING - INTRUSION EVENT: 4 critical alerts!
+2025-08-28 13:57:36,681 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:36,682 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:36,682 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:36,682 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:36,689 - camera_model_cam1 - INFO - LOITERING: 4 people detected - checking for loitering!
+2025-08-28 13:57:36,692 - camera_model_cam1 - WARNING - LOITERING ALERT: person_1 loitering for 1.1s (5 frames)!
+2025-08-28 13:57:36,705 - camera_model_cam1 - WARNING - LOITERING ALERT: person_2 loitering for 1.1s (5 frames)!
+2025-08-28 13:57:36,723 - camera_model_cam1 - WARNING - LOITERING ALERT: person_3 loitering for 1.1s (5 frames)!
+2025-08-28 13:57:36,736 - camera_model_cam1 - WARNING - LOITERING ALERT: person_4 loitering for 1.1s (5 frames)!
+2025-08-28 13:57:36,749 - camera_model_cam1 - WARNING - LOITERING ALERT: 4 violations!
+2025-08-28 13:57:36,749 - camera_model_cam1 - WARNING - LOITERING EVENT: 4 violations detected!
+2025-08-28 13:57:36,749 - camera_model_cam1 - WARNING -   VIOLATION: person_1 exceeded frames threshold (1.1s)
+2025-08-28 13:57:36,750 - camera_model_cam1 - WARNING -   VIOLATION: person_2 exceeded frames threshold (1.1s)
+2025-08-28 13:57:36,750 - camera_model_cam1 - WARNING -   VIOLATION: person_3 exceeded frames threshold (1.1s)
+2025-08-28 13:57:36,750 - camera_model_cam1 - WARNING -   VIOLATION: person_4 exceeded frames threshold (1.1s)
+2025-08-28 13:57:36,809 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:36,869 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:36,870 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:36,871 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:36,871 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:36,893 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:36,948 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:37,005 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:37,006 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:37,006 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:37,007 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:37,007 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:37,008 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:37,008 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:37,015 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:37,120 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:37,179 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:37,180 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:37,180 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:37,183 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:37,207 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:37,265 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:37,324 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:37,325 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:37,325 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:37,326 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:37,326 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:37,326 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:37,327 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:37,332 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:37,445 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:37,506 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:37,507 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:37,508 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:37,509 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:37,533 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:37,590 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:37,645 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:37,645 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:37,645 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:37,645 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:37,646 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:37,646 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:37,646 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:37,651 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:37,783 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:37,848 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:37,848 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:37,849 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:37,849 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:37,872 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:37,925 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:37,982 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:37,982 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:37,983 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:37,984 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:37,984 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:37,985 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:37,985 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:37,990 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:38,103 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:38,173 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:38,174 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:38,174 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:38,175 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:38,199 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:38,258 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:38,319 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:38,319 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:38,319 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:38,319 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:38,319 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:38,319 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:38,320 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:38,327 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:38,370 - camera_model_cam1 - WARNING - LOITERING ALERT: person_5 loitering for 1.3s (5 frames)!
+2025-08-28 13:57:38,382 - camera_model_cam1 - WARNING - LOITERING ALERT: 1 violations!
+2025-08-28 13:57:38,382 - camera_model_cam1 - WARNING - LOITERING EVENT: 1 violations detected!
+2025-08-28 13:57:38,382 - camera_model_cam1 - WARNING -   VIOLATION: person_5 exceeded frames threshold (1.3s)
+2025-08-28 13:57:38,464 - camera_model_cam1 - INFO - PPE: 6 people detected - creating PPE violations!
+2025-08-28 13:57:38,548 - camera_model_cam1 - INFO - Triggering PPE events: 12 violations across 6 people
+2025-08-28 13:57:38,549 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 12 violations detected!
+2025-08-28 13:57:38,550 - camera_model_cam1 - INFO -   NO-Safety Vest: 6 violations
+2025-08-28 13:57:38,551 - camera_model_cam1 - INFO -   NO-Hardhat: 6 violations
+2025-08-28 13:57:38,587 - camera_model_cam1 - INFO - TAILGATING: 6 people detected - triggering tailgating alerts!
+2025-08-28 13:57:38,653 - camera_model_cam1 - WARNING - TAILGATING ALERT: 1 unauthorized entries!
+2025-08-28 13:57:38,654 - camera_model_cam1 - WARNING - TAILGATING EVENT: 1 security violations!
+2025-08-28 13:57:38,655 - camera_model_cam1 - WARNING -   VIOLATION: person_6 followed too closely (gap: 1.5s)
+2025-08-28 13:57:38,661 - camera_model_cam1 - INFO - INTRUSION: 6 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:38,730 - camera_model_cam1 - WARNING - CRITICAL: 6 INTRUSION ALERTS triggered!
+2025-08-28 13:57:38,731 - camera_model_cam1 - WARNING - INTRUSION EVENT: 6 critical alerts!
+2025-08-28 13:57:38,731 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:38,732 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:38,732 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:38,732 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:38,732 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:38,732 - camera_model_cam1 - WARNING -   ALERT: intruder_6 breached Restricted Access Zone
+2025-08-28 13:57:38,737 - camera_model_cam1 - INFO - LOITERING: 6 people detected - checking for loitering!
+2025-08-28 13:57:38,861 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:38,924 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:38,927 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:38,927 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:38,928 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:38,949 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:39,006 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:39,064 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:39,064 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:39,065 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:39,065 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:39,066 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:39,066 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:39,066 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:39,074 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:39,211 - camera_model_cam1 - INFO - PPE: 6 people detected - creating PPE violations!
+2025-08-28 13:57:39,280 - camera_model_cam1 - INFO - Triggering PPE events: 12 violations across 6 people
+2025-08-28 13:57:39,281 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 12 violations detected!
+2025-08-28 13:57:39,281 - camera_model_cam1 - INFO -   NO-Safety Vest: 6 violations
+2025-08-28 13:57:39,282 - camera_model_cam1 - INFO -   NO-Hardhat: 6 violations
+2025-08-28 13:57:39,305 - camera_model_cam1 - INFO - TAILGATING: 6 people detected - triggering tailgating alerts!
+2025-08-28 13:57:39,372 - camera_model_cam1 - INFO - INTRUSION: 6 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:39,437 - camera_model_cam1 - WARNING - CRITICAL: 6 INTRUSION ALERTS triggered!
+2025-08-28 13:57:39,438 - camera_model_cam1 - WARNING - INTRUSION EVENT: 6 critical alerts!
+2025-08-28 13:57:39,438 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:39,439 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:39,439 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:39,439 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:39,439 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:39,440 - camera_model_cam1 - WARNING -   ALERT: intruder_6 breached Restricted Access Zone
+2025-08-28 13:57:39,449 - camera_model_cam1 - INFO - LOITERING: 6 people detected - checking for loitering!
+2025-08-28 13:57:39,576 - camera_model_cam1 - INFO - PPE: 6 people detected - creating PPE violations!
+2025-08-28 13:57:39,649 - camera_model_cam1 - INFO - Triggering PPE events: 12 violations across 6 people
+2025-08-28 13:57:39,650 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 12 violations detected!
+2025-08-28 13:57:39,650 - camera_model_cam1 - INFO -   NO-Safety Vest: 6 violations
+2025-08-28 13:57:39,651 - camera_model_cam1 - INFO -   NO-Hardhat: 6 violations
+2025-08-28 13:57:39,681 - camera_model_cam1 - INFO - TAILGATING: 6 people detected - triggering tailgating alerts!
+2025-08-28 13:57:39,752 - camera_model_cam1 - INFO - INTRUSION: 6 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:39,830 - camera_model_cam1 - WARNING - CRITICAL: 6 INTRUSION ALERTS triggered!
+2025-08-28 13:57:39,831 - camera_model_cam1 - WARNING - INTRUSION EVENT: 6 critical alerts!
+2025-08-28 13:57:39,831 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:39,831 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:39,832 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:39,832 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:39,832 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:39,832 - camera_model_cam1 - WARNING -   ALERT: intruder_6 breached Restricted Access Zone
+2025-08-28 13:57:39,839 - camera_model_cam1 - INFO - LOITERING: 6 people detected - checking for loitering!
+2025-08-28 13:57:39,975 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:40,050 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:40,050 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:40,051 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:40,051 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:40,078 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:40,140 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:40,201 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:40,201 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:40,202 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:40,202 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:40,202 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:40,203 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:40,203 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:40,212 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:40,333 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:40,402 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:40,402 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:40,403 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:40,404 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:40,427 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:40,483 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:40,547 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:40,548 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:40,548 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:40,548 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:40,548 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:40,548 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:40,549 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:40,553 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:40,683 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:40,750 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:40,751 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:40,751 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:40,751 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:40,778 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:40,844 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:40,909 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:40,910 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:40,911 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:40,911 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:40,913 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:40,913 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:40,913 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:40,919 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:41,060 - camera_model_cam1 - INFO - PPE: 5 people detected - creating PPE violations!
+2025-08-28 13:57:41,119 - camera_model_cam1 - INFO - Triggering PPE events: 10 violations across 5 people
+2025-08-28 13:57:41,119 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 10 violations detected!
+2025-08-28 13:57:41,120 - camera_model_cam1 - INFO -   NO-Safety Vest: 5 violations
+2025-08-28 13:57:41,120 - camera_model_cam1 - INFO -   NO-Hardhat: 5 violations
+2025-08-28 13:57:41,144 - camera_model_cam1 - INFO - TAILGATING: 5 people detected - triggering tailgating alerts!
+2025-08-28 13:57:41,199 - camera_model_cam1 - INFO - INTRUSION: 5 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:41,253 - camera_model_cam1 - WARNING - CRITICAL: 5 INTRUSION ALERTS triggered!
+2025-08-28 13:57:41,255 - camera_model_cam1 - WARNING - INTRUSION EVENT: 5 critical alerts!
+2025-08-28 13:57:41,256 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:41,256 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:41,257 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:41,257 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:41,258 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:41,265 - camera_model_cam1 - INFO - LOITERING: 5 people detected - checking for loitering!
+2025-08-28 13:57:41,388 - camera_model_cam1 - INFO - PPE: 6 people detected - creating PPE violations!
+2025-08-28 13:57:41,462 - camera_model_cam1 - INFO - Triggering PPE events: 12 violations across 6 people
+2025-08-28 13:57:41,462 - camera_model_cam1 - INFO - PPE VIOLATION EVENT: 12 violations detected!
+2025-08-28 13:57:41,463 - camera_model_cam1 - INFO -   NO-Safety Vest: 6 violations
+2025-08-28 13:57:41,463 - camera_model_cam1 - INFO -   NO-Hardhat: 6 violations
+2025-08-28 13:57:41,486 - camera_model_cam1 - INFO - TAILGATING: 6 people detected - triggering tailgating alerts!
+2025-08-28 13:57:41,556 - camera_model_cam1 - INFO - INTRUSION: 6 people detected - ALL ARE INTRUDERS!
+2025-08-28 13:57:41,618 - camera_model_cam1 - WARNING - CRITICAL: 6 INTRUSION ALERTS triggered!
+2025-08-28 13:57:41,619 - camera_model_cam1 - WARNING - INTRUSION EVENT: 6 critical alerts!
+2025-08-28 13:57:41,619 - camera_model_cam1 - WARNING -   ALERT: intruder_1 breached Restricted Access Zone
+2025-08-28 13:57:41,619 - camera_model_cam1 - WARNING -   ALERT: intruder_2 breached Restricted Access Zone
+2025-08-28 13:57:41,619 - camera_model_cam1 - WARNING -   ALERT: intruder_3 breached Restricted Access Zone
+2025-08-28 13:57:41,619 - camera_model_cam1 - WARNING -   ALERT: intruder_4 breached Restricted Access Zone
+2025-08-28 13:57:41,620 - camera_model_cam1 - WARNING -   ALERT: intruder_5 breached Restricted Access Zone
+2025-08-28 13:57:41,620 - camera_model_cam1 - WARNING -   ALERT: intruder_6 breached Restricted Access Zone
+2025-08-28 13:57:41,626 - camera_model_cam1 - INFO - LOITERING: 6 people detected - checking for loitering!
