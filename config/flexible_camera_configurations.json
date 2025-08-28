@@ -1,0 +1,360 @@
+[
+  {
+    "camera_id": "cam1",
+    "name": "main entrance",
+    "stream_url": "rtsp://admin:password@192.168.29.212:554/ch0_0.264",
+    "available_use_cases": [
+      "people_counting",
+      "ppe_detection",
+      "tailgating",
+      "intrusion",
+      "loitering"
+    ],
+    "enabled_use_cases": [
+      "people_counting",
+      "ppe_detection",
+      "tailgating",
+      "intrusion",
+      "loitering"
+    ],
+    "zones": {
+      "people_counting": {
+        "counting": [
+          {
+            "zone_id": 1,
+            "name": "Counting Zone",
+            "coordinates": [
+              [
+                200,
+                200
+              ],
+              [
+                800,
+                200
+              ],
+              [
+                800,
+                600
+              ],
+              [
+                200,
+                600
+              ]
+            ]
+          }
+        ]
+      },
+      "ppe_detection": {
+        "ppe_zone": [
+          {
+            "zone_id": 2,
+            "name": "PPE Required Zone",
+            "coordinates": [
+              [
+                300,
+                250
+              ],
+              [
+                900,
+                250
+              ],
+              [
+                900,
+                700
+              ],
+              [
+                300,
+                700
+              ]
+            ]
+          }
+        ]
+      },
+      "tailgating": {
+        "entry": [
+          {
+            "zone_id": 3,
+            "name": "Entry Control Zone",
+            "coordinates": [
+              [
+                250,
+                300
+              ],
+              [
+                750,
+                300
+              ],
+              [
+                750,
+                650
+              ],
+              [
+                250,
+                650
+              ]
+            ]
+          }
+        ]
+      },
+      "intrusion": {
+        "intrusion": [
+          {
+            "zone_id": 4,
+            "name": "Restricted Zone",
+            "coordinates": [
+              [
+                500,
+                200
+              ],
+              [
+                1200,
+                200
+              ],
+              [
+                1200,
+                800
+              ],
+              [
+                500,
+                800
+              ]
+            ]
+          }
+        ]
+      },
+      "loitering": {
+        "loitering": [
+          {
+            "zone_id": 5,
+            "name": "No Loitering Zone",
+            "coordinates": [
+              [
+                400,
+                350
+              ],
+              [
+                1000,
+                350
+              ],
+              [
+                1000,
+                750
+              ],
+              [
+                400,
+                750
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "rules": {
+      "people_counting": {
+        "count_threshold": 0,
+        "confidence_threshold": 0.3
+      },
+      "ppe_detection": {
+        "required_ppe": [
+          "hard_hat",
+          "safety_vest"
+        ],
+        "confidence_threshold": 0.3
+      },
+      "tailgating": {
+        "time_limit": 2.0,
+        "distance_threshold": 200,
+        "confidence_threshold": 0.3
+      },
+      "intrusion": {
+        "alert_immediately": true,
+        "confidence_threshold": 0.3
+      },
+      "loitering": {
+        "time_threshold": 300,
+        "movement_threshold": 20,
+        "confidence_threshold": 0.3
+      }
+    },
+    "status": "active"
+  },
+  {
+    "camera_id": "cam2",
+    "name": "reception",
+    "stream_url": "rtsp://admin:password@192.168.29.212:554/ch0_0.264",
+    "available_use_cases": [
+      "people_counting",
+      "ppe_detection",
+      "tailgating",
+      "intrusion",
+      "loitering"
+    ],
+    "enabled_use_cases": [
+      "people_counting",
+      "ppe_detection",
+      "tailgating",
+      "intrusion",
+      "loitering"
+    ],
+    "zones": {
+      "people_counting": {
+        "counting": [
+          {
+            "zone_id": 1,
+            "name": "Counting Zone",
+            "coordinates": [
+              [
+                200,
+                200
+              ],
+              [
+                800,
+                200
+              ],
+              [
+                800,
+                600
+              ],
+              [
+                200,
+                600
+              ]
+            ]
+          }
+        ]
+      },
+      "ppe_detection": {
+        "ppe_zone": [
+          {
+            "zone_id": 2,
+            "name": "PPE Required Zone",
+            "coordinates": [
+              [
+                300,
+                250
+              ],
+              [
+                900,
+                250
+              ],
+              [
+                900,
+                700
+              ],
+              [
+                300,
+                700
+              ]
+            ]
+          }
+        ]
+      },
+      "tailgating": {
+        "entry": [
+          {
+            "zone_id": 3,
+            "name": "Entry Control Zone",
+            "coordinates": [
+              [
+                250,
+                300
+              ],
+              [
+                750,
+                300
+              ],
+              [
+                750,
+                650
+              ],
+              [
+                250,
+                650
+              ]
+            ]
+          }
+        ]
+      },
+      "intrusion": {
+        "intrusion": [
+          {
+            "zone_id": 4,
+            "name": "Restricted Zone",
+            "coordinates": [
+              [
+                500,
+                200
+              ],
+              [
+                1200,
+                200
+              ],
+              [
+                1200,
+                800
+              ],
+              [
+                500,
+                800
+              ]
+            ]
+          }
+        ]
+      },
+      "loitering": {
+        "loitering": [
+          {
+            "zone_id": 5,
+            "name": "No Loitering Zone",
+            "coordinates": [
+              [
+                400,
+                350
+              ],
+              [
+                1000,
+                350
+              ],
+              [
+                1000,
+                750
+              ],
+              [
+                400,
+                750
+              ]
+            ]
+          }
+        ]
+      }
+    },
+    "rules": {
+      "people_counting": {
+        "count_threshold": 0,
+        "confidence_threshold": 0.3
+      },
+      "ppe_detection": {
+        "required_ppe": [
+          "hard_hat",
+          "safety_vest"
+        ],
+        "confidence_threshold": 0.3
+      },
+      "tailgating": {
+        "time_limit": 2.0,
+        "distance_threshold": 200,
+        "confidence_threshold": 0.3
+      },
+      "intrusion": {
+        "alert_immediately": true,
+        "confidence_threshold": 0.3
+      },
+      "loitering": {
+        "time_threshold": 300,
+        "movement_threshold": 20,
+        "confidence_threshold": 0.3
+      }
+    },
+    "status": "active"
+  }
+]
